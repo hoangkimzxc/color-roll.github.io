@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #f1f5f8;
+}
+
+nav {
+  padding: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-center h4 {
+  color: #49a6e9;
+  letter-spacing: 0.2rem;
+}
+
+.nav-center ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 550;
+  letter-spacing: 0.2rem;
+}
+
+.nav-center ul li p {
+  color: #063251;
+}
+
+.nav-center ul li:hover a {
+  color: #49a6e9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 12rem;
+}
+
+.container h2 {
+  color: white;
+  background-color: #222;
+  font-size: 2.75rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  letter-spacing: 0.1rem;
+}
+
+.container h2 .color {
+  color: #49a6e9;
+  letter-spacing: 0.3rem;
+}
+
+.btn-hero {
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #222;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border: 2px solid #222;
+  border-radius: 10px;
+}
+
+.btn-hero:hover {
+  color: #fff;
+  background-color: #222;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
